@@ -1,8 +1,0 @@
-.rectangleDiv {
-  position: relative;
-  background-color: var(--color-gainsboro);
-  width: 483px;
-  height: 381px;
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-}
