@@ -1,6 +1,6 @@
 import styles from "./Rectangle2.module.css";
-const Rectangle2 = () => {
+const Rectangle6 = () => {
   return <div className={styles.rectangleDiv} />;
 };
 
-export default Rectangle2;
+export default Rectangle6;

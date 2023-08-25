@@ -4,7 +4,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import undefined from "./";
+import LandingPage3 from "./pages/LandingPage3";
+import LandingPage2 from "./pages/LandingPage2";
 import { useEffect } from "react";
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/landing-page-2":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<undefined />} />
+      <Route path="/" element={<LandingPage3 />} />
+      <Route path="/landing-page-2" element={<LandingPage2 />} />
     </Routes>
   );
 }

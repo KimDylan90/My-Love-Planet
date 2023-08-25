@@ -1,6 +1,5 @@
-.rectangleDiv {
+.rectangleTextfield {
+  border: 0;
+  background-color: transparent;
   position: relative;
-  background-color: var(--color-gainsboro);
-  width: 468px;
-  height: 36px;
 }
