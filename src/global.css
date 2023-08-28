@@ -18,16 +18,17 @@ body {
   --bold-26-size: 26px;
 
   /* Colors */
-  --colour-secondary-white-100-general: #fff;
+  --color-whitesmoke: #f5f5f5;
   --color-black: #000;
+  --colour-secondary-white-100-general: #fff;
   --color-lavender: #e7ecff;
   --colour-main-blue-300: #929ecc;
   --color-lightgray: #cdd1d4;
   --colour-main-grey-400: #939ea4;
+  --colour-background-light-grey: #fbfbfd;
   --colour-main-blue-900: #091133;
   --colour-logo-primary: #37447e;
   --colour-main-blue-500: #505f98;
-  --color-gainsboro: #d9d9d9;
 
   /* Gaps */
   --gap-27xl: 46px;

@@ -108,7 +108,9 @@ const LandingPage2 = () => {
         </div>
         <div className={styles.logolandie1} />
       </div>
-      <div className={styles.letsGetStarted}>Lets get started...</div>
+      <div className={styles.welcheStadtHast}>
+        Welche Stadt hast du schon besucht?
+      </div>
       <Form.Group className={styles.wrapper}>
         <Form.Control type="text" placeholder="Stadt hinzufügen..." />
       </Form.Group>
